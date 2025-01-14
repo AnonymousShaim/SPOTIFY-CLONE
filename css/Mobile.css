@@ -1,0 +1,313 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 30px;
+  }
+  #menuBar {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    padding: 100px 50px 50px 50px;
+    gap: 20px;
+  }
+  #overlay {
+    display: none;
+  }
+
+  .menuLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menuLinks button {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 18px;
+  }
+  #cross {
+    /* width: fit-content; */
+    right: 15px;
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  #showAll,
+  #showAll2,
+  #showAll3,
+  #showAll4,
+  #showAll5 {
+    display: none;
+  }
+  #cross:hover {
+    transform: rotate(175deg);
+  }
+  .menuLinks button:hover {
+    color: white;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+  }
+  .home-logo img {
+    display: none;
+  }
+  .searchbar {
+    height: 40px;
+  }
+  .searchbar input {
+    border: none;
+    outline: none;
+    padding: 3px;
+    width: 53vw;
+  }
+  .home-logo {
+    display: none;
+  }
+  #menubar {
+    display: block;
+    width: 30px;
+  }
+  .nav-btn,
+  .nav-btn * {
+    display: none;
+  }
+
+  section {
+    height: calc(100vh - 80px);
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    width: 97%;
+    margin: auto;
+  }
+  .cardContainer {
+    overflow-x: scroll;
+  }
+  .R6 {
+    flex-wrap: wrap;
+    padding: 50px 10px 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 35px;
+  }
+  #playerBar {
+    width: 97%;
+    border-radius: 15px;
+  }
+  footer {
+    display: none;
+  }
+  #draggablepage {
+    position: fixed;
+    width: 97%;
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    /* height: 100%; */
+    background-color: #2a2c2c;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: height 0.5s ease; /* Smooth transition for release */
+  }
+  #draggablepage .expanded {
+    height: 100%; /* Full height when hovered */
+  }
+  #resizableContainer.expanded .maincontent {
+    display: block; /* Show content in expanded state */
+  }
+  #draggableContent {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding: 0 20px 0 0;
+    
+  }
+
+  .maincontent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #181616c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    gap: 25px;
+    display: none;
+  }
+
+  #draggableContent p {
+    color: darkgrey;
+  }
+  .mobilebottom {
+    width: 90%;
+    height: 60%;
+    background-color: #3d2222;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+    /* border: 1px solid red; */
+  }
+
+  #progressbar1 {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+  }
+  #progressbar1::-webkit-slider-runnable-track {
+    border-radius: 20px;
+    height: 10px;
+    cursor: pointer;
+  }
+  #progressbar1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 9px;
+    background: white;
+    outline: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .duration1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: small;
+  }
+  .playerImg1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .musicContainer {
+    width: 80%;
+    height: 40%;
+    object-position: center center;
+    border-radius: 20px;
+    box-shadow: -4px 9px 25px 5px rgba(0, 0, 0, 2);
+    transition: box-shadow 0.5s ease;
+  }
+  #musicImgg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    user-select: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+  }
+  #play1 {
+    width: 50px;
+    /* height: 30px; */
+    cursor: pointer;
+  }
+  .volumeDiv {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+  }
+  #volume1 {
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(to right, rgb(53, 52, 52), rgb(255, 255, 255));
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    width: 75%;
+    height: 2px;
+  }
+  #volume1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    background: rgb(173, 170, 170);
+    outline: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  #mobileSonglist {
+    width: 120%;
+    height: 200px;
+    user-select: none;
+    /* background-color: rgba(0, 0, 0, 0.295); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin-top: 25px;
+    transition: opacity 0.5s ease;
+    opacity: 10;
+  }
+  #mobileSongTitle {
+    font-size: x-large;
+    color: #3e8ed0b8;
+    display: flex;
+    width: 96%;
+  }
+  #songUl {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid rgba(1, 17, 0, 0.1);
+    background: transparent;
+    padding: 5px 0 10px 0;
+  }
+  #songUl li {
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+    background: transparent;
+    transition: background-color 0.5s ease;
+    color: #817f7f;
+  }
+  #displayName1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #songUl li:hover {
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+    color: white;
+  }
+  @keyframes anime {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}

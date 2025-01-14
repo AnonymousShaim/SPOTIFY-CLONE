@@ -1,0 +1,25 @@
+@media screen and (max-width:1000px) and (min-width:800px) {
+    .l2A , .l2B{
+        height: 40%;
+    }
+    .l2{
+       gap:  60px;
+    }
+    #table1 , #table2 , #table3 , #table4 , #table5{
+        width: 71%;
+    }
+    #overlayHide{
+        right: 5%;
+    }
+    .R6 {
+        padding: 10px 18px 10px 18px;
+        gap: 17px;
+        flex-wrap: wrap;
+    }
+    #preview{
+        display: none;
+    }
+    #footerBtn{
+        padding: 5px 9px;
+    }
+}

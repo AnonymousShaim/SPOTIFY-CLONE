@@ -1,0 +1,58 @@
+.transparent{
+    background: transparent;
+}
+.border{
+    border: 1px solid red;
+}
+.invert{
+    filter: invert(1);
+}
+.flex{
+    display: flex;
+}
+.align-items{
+    display: flex;
+    align-items: center;
+}
+.justify-content{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex ;
+    flex-direction: column;
+}
+.space-between{
+    display: flex ;
+    justify-content: space-between;
+}
+.space-around{
+    display: flex ;
+    justify-content: space-around;
+}
+.width{
+    width: fit-content;
+}
+.height{
+    height: fit-content;
+}
+.background-color{
+    background-color: #1f1f1f;
+}
+.img-width{
+    width: 25px;
+}
+.gap{
+    gap: 15px;
+}
+.link{
+    text-decoration: none;
+    color: #B3B3A9;
+    background: transparent;
+}
+.btn{
+    border: none;
+}
