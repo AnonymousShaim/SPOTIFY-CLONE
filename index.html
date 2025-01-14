@@ -1,0 +1,3766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css\Mobile.css" />
+    <link rel="stylesheet" href="css/Tablet.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <body>
+    <div class="layers">
+      <div id="menuBar">
+        <img
+          id="cross"
+          class="img-width"
+          src="images/cross-svgrepo-com.svg"
+          alt=""
+        />
+        <div class="menuLinks">
+          <button class="btn">
+            <a
+              class="link"
+              href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%2F"
+            ></a
+            >Log In
+          </button>
+
+          <button class="btn">
+            <a
+              href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F__noul__%2F"
+            ></a
+            >Sign Up
+          </button>
+        </div>
+        <div class="menuLinks">
+          <button class="btn">
+            <a
+              href="https://www.spotify.com/in-en/premium/?ref=mweb_loggedout_premium_menu"
+            ></a
+            >Premium
+          </button>
+          <button class="btn">
+            <a href="https://support.spotify.com/in-en/"></a>Help
+          </button>
+          <button class="btn">
+            <a
+              href="https://www.spotify.com/in-en/download/windows/?referrer=mwp"
+            ></a
+            >Download
+          </button>
+          <button class="btn">
+            <a href="https://www.spotify.com/legal/privacy-policy/"></a>Privacy
+          </button>
+          <button class="btn">
+            <a href="https://www.spotify.com/legal"></a>Terms
+          </button>
+        </div>
+      </div>
+      <div id="overlay">
+        <button id="overlayHide">Hide</button>
+        <div id="table1">
+          <div class="rightHeading transparent">
+            <h3 class="transparent">Popular Artists</h3>
+          </div>
+          <div class="cardContainer transparent">
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Pritam</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Sachin-Jigar</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">A.R Rahman</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Arijit Singh</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Vishal-Sekhar</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Arif Aslam</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Anirudh Ravichander</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Vishal Mishra</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174fc043bea91ac91c222d235c9"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Diljit Dosanjh</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Yo Yo Honey Singh</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Udit Narayan</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174eddbb664c4723f268a60d8c1"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Badshah</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174a80a803733f6a070e8f873fb"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Darshan Raval</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab6761610000517459303d54ce789210e745e1a9"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Shreya Ghosal</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174654603f76991dc1275e67d39"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Jasleen Royal</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174e34fad78221a2cb31da57946"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Sachet Tendon</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174a837a6cb82dd949d5e1f9b53"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Anuv Jain</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Sonu Nigam</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab676161000051747aa689cd7ca136098b26c20d"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Karan Aujla</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Shankar-Ehsaan-Loy</p>
+                <p class="transparent">Artists</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="table2">
+          <div class="rightHeading transparent">
+            <h3 class="transparent">Popular Albums and singles</h3>
+          </div>
+          <div class="cardContainer transparent">
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">GLORY</p>
+                <p class="transparent">Yo Yo Honey Singh</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent width">Ashiqui 2</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 12px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent width"
+                >
+                  Mithoon , Ankit Tiwari,Jeet Gannguli
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e0209c9bf421422262c368009d6"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Patandar</p>
+                <p class="transparent">Arjan Dhillon , Mxrci</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Jo Tum Mere Ho</p>
+                <p class="transparent">Anuv Jain</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Making memories</p>
+                <p class="transparent">Karan Aujla , Ikky</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Ye Jawaani Hai Deewani</p>
+                <p class="transparent">Pritam</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Animal</p>
+                <p class="transparent">Manan Bhardawaj,Vishal Mishra, Jaani</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02e62ca3548e739bd85eebbbc9"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">G.O.A.T</p>
+                <p class="transparent">Diljit Dosanjh</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e021aa5adad8593923dcdf1a7d0"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Ultimate Love songs - Arijit Singh</p>
+                <p class="transparent">Arijit Singh</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e027f35adfbec3bb2bc8256802b"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">WHO (Remixes)</p>
+                <p class="transparent">Jimin</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02cb2f9520171129a3df7a241a"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">GHOST</p>
+                <p class="transparent">Diljit Dosanjh</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Moosetape</p>
+                <p class="transparent">Sidhu moose wala</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Still Rollin</p>
+                <p class="transparent">Subh</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Raanjhan (From "Do Patti")</p>
+                <p class="transparent">Parampara Tandon</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e02c5545f737b16ad5ee767b62a"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Kabore Singh</p>
+                <p class="transparent">Sachet-Parampara ,Vishal Mishra</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Rockstar</p>
+                <p class="transparent">A.R. Rahman , Irshad Kamil</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="table3">
+          <div class="rightHeading transparent">
+            <h3 class="transparent">Popular Radio</h3>
+            <!-- <button class="btn transparent">Show All</button> -->
+          </div>
+          <div class="cardContainer transparent">
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">GLORY</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With sachin-jigar, Vishal-Sekhar,Amit
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent width">Ashiqui 2</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 12px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent width"
+                >
+                  With Karan Aujla, Shubh,AP Dhillon and more
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Patandar</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Mukesh, Tabassum, Asha Bhosl..
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/70B80Lwx2sxti0M1Ng9e8K/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Jo Tum Mere Ho</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Uttam singh, Abhijeet, Lata....
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Making memories</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Pritam, Mohit Chauhan, Armaan..
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Ye Jawaani Hai Deewani</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With A.R. Rahman, Vishal-shekhar, Atif..
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Animal</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Diljit Dosanjh, Harrdy
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">G.O.A.T</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Anirudh Ravichander, G. V......
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Ultimate Love songs - Arijit Singh</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Karan Aujla ,Varinder Brar , Arjan...
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">WHO (Remixes)</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Asha Bhosle , Abhijeet , Jatin-Lalit...
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5VVN3xZw1i2qihfITZlvCZ/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">GHOST</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Anirudh Ravichander , A.R.....
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2oSONSC9zQ4UonDKnLqksx/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Moosetape</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Sachin Jigar , Darshan Raval .....
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/6DARBhWbfcS9E4yJzcliqQ/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Still Rollin</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Subh , A.P. Dhillon , Divine
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3OLGltG8UPIea8sA4w0yg0/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Raanjhan (From "Do Patti")</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Shankar-Ehsaan-Loy , Atif Aslam ....
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Kabore Singh</p>
+                <p
+                  style="
+                    width: 170px;
+                    font-size: 13px;
+                    height: 20px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  With Shankar-Ehsaan-Loy , Atif Aslam
+                </p>
+              </div>
+            </div>
+            <!-- <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Rockstar</p>
+                  <p class="transparent">A.R. Rahman , Irshad Kamil</p>
+                </div>
+              </div> 
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e0252fe6875028c892308ffc2f7"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Jab we met</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div> -->
+            <!-- <div class="card">
+                  <div class="imageContainer">
+                    <img
+                      class="transparent"
+                      id="greenButton"
+                      src="greenButton.svg"
+                      alt=""
+                    />
+                    <img
+                      id="singerImg"
+                      class="transparent"
+                      src="https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5"
+                      alt=""
+                    />
+                  </div>
+                  <div class="rightText transparent">
+                    <p class="transparent">Sonu Nigam</p>
+                    <p class="transparent">Artists</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="imageContainer">
+                    <img
+                      class="transparent"
+                      id="greenButton"
+                      src="greenButton.svg"
+                      alt=""
+                    />
+                    <img
+                      id="singerImg"
+                      class="transparent"
+                      src="https://i.scdn.co/image/ab676161000051747aa689cd7ca136098b26c20d"
+                      alt=""
+                    />
+                  </div>
+                  <div class="rightText transparent">
+                    <p class="transparent">Karan Aujla</p>
+                    <p class="transparent">Artists</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="imageContainer">
+                    <img
+                      class="transparent"
+                      id="greenButton"
+                      src="greenButton.svg"
+                      alt=""
+                    />
+                    <img
+                      id="singerImg"
+                      class="transparent"
+                      src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3"
+                      alt=""
+                    />
+                  </div>
+                  <div class="rightText transparent">
+                    <p class="transparent">Shankar-Ehsaan-Loy</p>
+                    <p class="transparent">Artists</p>
+                  </div>
+                </div> -->
+          </div>
+        </div>
+        <div id="table4">
+          <div class="rightHeading transparent">
+            <h3 class="transparent">Featured Charts</h3>
+            <!-- <button class="btn transparent" id="showAll">Show All</button> -->
+          </div>
+          <div class="cardContainer transparent">
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">GLORY</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Your weekly update of the most played tracks right now -
+                  Global.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent width">Ashiqui 2</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 12px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent width"
+                >
+                  Your weekly update of the most played tracks right now - USA.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Patandar</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Your daily update of the most played tracks right now -
+                  Global.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Jo Tum Mere Ho</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Your daily update of the most played tracks right now - USA.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Making memories</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Your daily update of the most viral tracks right now - Global.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Ye Jawaani Hai Deewani</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Your daily update of the most viral tracks right now - USA.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="table5">
+          <div class="rightHeading transparent">
+            <h3 class="transparent">Playlist from our editor</h3>
+            <!-- <button class="btn transparent" id="showAll5">Show All</button> -->
+          </div>
+          <div class="cardContainer transparent">
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67706f00000002fa8540423b3dd38f6a6e1c5b"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">GLORY</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Lounge and chill out music for your workday.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67706f000000026020f2f6476db518ef747da4"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent width">Ashiqui 2</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 12px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent width"
+                >
+                  Keep calm and focus with ambient electric guitar.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67706f00000002f8fa0407737573ffd91c5a59"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Patandar</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Jazz piano ballads to help you focus during the workday.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67706f0000000251a837a657686b08f7359f4e"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Jo Tum Mere Ho</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Work and study to the sound of soft electronic music.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67706f00000002ae53b7d003148a0204c12d4f"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Making memories</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Enhance your focus with classical music.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imageContainer">
+                <img
+                  class="transparent"
+                  id="greenButton"
+                  src="images/greenButton.svg"
+                  alt=""
+                />
+                <img
+                  id="singerImg"
+                  class="transparent"
+                  src="https://i.scdn.co/image/ab67706f000000028b94921d98021a701f6677cf"
+                  alt=""
+                />
+              </div>
+              <div class="rightText transparent">
+                <p class="transparent">Ye Jawaani Hai Deewani</p>
+                <p
+                  style="
+                    width: 160px;
+                    font-size: 13px;
+                    height: 40px;
+                    overflow: hidden;
+                  "
+                  class="transparent"
+                >
+                  Soothing piano and strings to help you concentrate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <nav>
+        <img class="transparent logo" src="images/logo.svg" alt="" />
+        <div class="navcenter transparent align-items">
+          <div class="home-logo">
+            <img class="transparent" src="images/home.svg" alt="" />
+          </div>
+          <div class="searchbar transparent background-color align-items">
+            <img class="transparent" src="images/search.svg" alt="" />
+            <input
+              class="transparent"
+              type="text"
+              placeholder="Search for Artists, Songs, or Podcasts"
+            />
+            <img class="transparent" src="images/library.svg" alt="" />
+          </div>
+        </div>
+        <div class="nav-btn height flex">
+          <button>
+            <a
+              class="transparent"
+              href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"
+              >SIgn Up</a
+            >
+          </button>
+          <button id="login">
+            <a
+              class="transparent"
+              href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F"
+              >Log In</a
+            >
+          </button>
+        </div>
+
+        <img id="menubar" src="images/menu-bar.svg" alt="" />
+      </nav>
+      <section id="section">
+        <div class="left">
+          <div class="L1 transparent flex space-between">
+            <div class="youlibrary transparent flex gap">
+              <img
+                class="transparent img-width"
+                src="images/library2.svg"
+                alt=""
+              />
+              <p class="transparent width height">Your Library</p>
+            </div>
+            <img
+              id="plusCross"
+              class="img-width transparent"
+              src="images/cross-svgrepo-com.svg"
+              alt=""
+            />
+            <div class="transparent plusClickDIV">
+              <div id="plusClick" class="transparent">
+                <button
+                  class="transparent btn align-items gap"
+                  id="plusbtnClick"
+                >
+                  <img
+                    class="img-width transparent"
+                    src="images/music.svg"
+                    alt=""
+                  />Create a new playlist
+                </button>
+              </div>
+              <div
+                class="pluslogoDIV align-items justify-content"
+                id="pluslogoDIV"
+              >
+                <div id="plusHover" class="width">
+                  Create playlist or folder
+                </div>
+
+                <img
+                  id="plusImg"
+                  class="img-width transparent"
+                  src="images/plus.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="l2 transparent">
+            <div id="PlayList" class="transparent">
+              <ul id="songList"></ul>
+            </div>
+            <div id="l2A" class="l2A flex space-between">
+              <div class="l2text transparent">
+                <h5 class="transparent">Create your first playlist</h5>
+                <p class="transparent">It's east , we'll ehlp you</p>
+              </div>
+              <button class="transparent btn width" id="createbtn">
+                Create Playlist
+              </button>
+            </div>
+            <div id="l2B" class="l2B flex space-between">
+              <div class="l3text transparent">
+                <h5 class="transparent">
+                  Let's find out some podcast to follow
+                </h5>
+                <p class="transparent">
+                  We'll keep you updated on new episodes
+                </p>
+              </div>
+              <button class="transparent btn width" id="createbtn2">
+                Browse Podcast
+              </button>
+            </div>
+          </div>
+          <div class="l3 transparent">
+            <div class="l3A Links transparent flex space-between">
+              <a
+                class="link"
+                href="https://www.spotify.com/in-en/legal/end-user-agreement/"
+                >Legal</a
+              >
+              <a
+                class="link"
+                href="https://www.spotify.com/in-en/safetyandprivacy"
+                >Safety and Privacy</a
+              >
+              <a
+                class="link"
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                >Privacy-policy</a
+              >
+              <a
+                class="link"
+                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                >Cookies</a
+              >
+              <a
+                class="link"
+                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                >About Ads</a
+              >
+              <a class="link" href="https://www.spotify.com/in-en/accessibility"
+                >Accessibility</a
+              >
+            </div>
+            <button class="transparent flex align-items">
+              <a class="links transparent" href=""
+                ><img
+                  class="transparent img-width"
+                  src="images/earth.svg"
+                  alt=""
+              /></a>
+              English
+            </button>
+          </div>
+        </div>
+        <div id="right" class="right">
+          <div class="R1 transparent">
+            <div class="rightHeading transparent">
+              <h3 class="transparent">Popular Artists</h3>
+              <button class="btn transparent" id="showAll">Show All</button>
+            </div>
+            <div class="cardContainer transparent">
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent greenButton"
+                    id="greenButton1"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Pritam</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Sachin-Jigar</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">A.R Rahman</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Arijit Singh</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Vishal-Sekhar</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Arif Aslam</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Anirudh Ravichander</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Vishal Mishra</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174fc043bea91ac91c222d235c9"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Diljit Dosanjh</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174bc7e4fffd515b47ff1ebbc1f"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Yo Yo Honey Singh</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Udit Narayan</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174eddbb664c4723f268a60d8c1"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Badshah</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174a80a803733f6a070e8f873fb"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Darshan Raval</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab6761610000517459303d54ce789210e745e1a9"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Shreya Ghosal</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174654603f76991dc1275e67d39"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Jasleen Royal</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174e34fad78221a2cb31da57946"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Sachet Tendon</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174a837a6cb82dd949d5e1f9b53"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Anuv Jain</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Sonu Nigam</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab676161000051747aa689cd7ca136098b26c20d"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Karan Aujla</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Shankar-Ehsaan-Loy</p>
+                  <p class="transparent">Artists</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="R2 transparent">
+            <div class="rightHeading transparent">
+              <h3 class="transparent">Popular Albums and singles</h3>
+              <button class="btn transparent" id="showAll2">Show All</button>
+            </div>
+            <div class="cardContainer transparent">
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">GLORY</p>
+                  <p class="transparent">Yo Yo Honey Singh</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent width">Ashiqui 2</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 12px;
+                      height: 20px;
+                      overflow: hidden;
+                    "
+                    class="transparent width"
+                  >
+                    Mithoon , Ankit Tiwari,Jeet Gannguli
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e0209c9bf421422262c368009d6"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Patandar</p>
+                  <p class="transparent">Arjan Dhillon , Mxrci</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Jo Tum Mere Ho</p>
+                  <p class="transparent">Anuv Jain</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Making memories</p>
+                  <p class="transparent">Karan Aujla , Ikky</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Ye Jawaani Hai Deewani</p>
+                  <p class="transparent">Pritam</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Animal</p>
+                  <p class="transparent">
+                    Manan Bhardawaj,Vishal Mishra, Jaani
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02e62ca3548e739bd85eebbbc9"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">G.O.A.T</p>
+                  <p class="transparent">Diljit Dosanjh</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e021aa5adad8593923dcdf1a7d0"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Ultimate Love songs - Arijit Singh</p>
+                  <p class="transparent">Arijit Singh</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e027f35adfbec3bb2bc8256802b"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">WHO (Remixes)</p>
+                  <p class="transparent">Jimin</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02cb2f9520171129a3df7a241a"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">GHOST</p>
+                  <p class="transparent">Diljit Dosanjh</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Moosetape</p>
+                  <p class="transparent">Sidhu moose wala</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e021a8c4618eda885a406958dd0"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Still Rollin</p>
+                  <p class="transparent">Subh</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02773c5f60bcb309ef8802e4ef"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Raanjhan (From "Do Patti")</p>
+                  <p class="transparent">Parampara Tandon</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e02c5545f737b16ad5ee767b62a"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Kabore Singh</p>
+                  <p class="transparent">Sachet-Parampara ,Vishal Mishra</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Rockstar</p>
+                  <p class="transparent">A.R. Rahman , Irshad Kamil</p>
+                </div>
+              </div>
+              <!-- <div class="card">
+                  <div class="imageContainer">
+                    <img
+                      class="transparent"
+                      id="greenButton"
+                      src="greenButton.svg"
+                      alt=""
+                    />
+                    <img
+                      id="singerImg"
+                      class="transparent"
+                      src="https://i.scdn.co/image/ab67616d00001e0252fe6875028c892308ffc2f7"
+                      alt=""
+                    />
+                  </div>
+                  <div class="rightText transparent">
+                    <p class="transparent">Jab we met</p>
+                    <p class="transparent">Artists</p>
+                  </div>
+                </div> -->
+              <!-- <div class="card">
+                    <div class="imageContainer">
+                      <img
+                        class="transparent"
+                        id="greenButton"
+                        src="greenButton.svg"
+                        alt=""
+                      />
+                      <img
+                        id="singerImg"
+                        class="transparent"
+                        src="https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rightText transparent">
+                      <p class="transparent">Sonu Nigam</p>
+                      <p class="transparent">Artists</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="imageContainer">
+                      <img
+                        class="transparent"
+                        id="greenButton"
+                        src="greenButton.svg"
+                        alt=""
+                      />
+                      <img
+                        id="singerImg"
+                        class="transparent"
+                        src="https://i.scdn.co/image/ab676161000051747aa689cd7ca136098b26c20d"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rightText transparent">
+                      <p class="transparent">Karan Aujla</p>
+                      <p class="transparent">Artists</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="imageContainer">
+                      <img
+                        class="transparent"
+                        id="greenButton"
+                        src="greenButton.svg"
+                        alt=""
+                      />
+                      <img
+                        id="singerImg"
+                        class="transparent"
+                        src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rightText transparent">
+                      <p class="transparent">Shankar-Ehsaan-Loy</p>
+                      <p class="transparent">Artists</p>
+                    </div>
+                  </div> -->
+            </div>
+          </div>
+          <div class="R3 transparent">
+            <div class="rightHeading transparent">
+              <h3 class="transparent">Popular Radio</h3>
+              <button class="btn transparent" id="showAll3">Show All</button>
+            </div>
+            <div class="cardContainer transparent">
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">GLORY</p>
+                  <p class="transparent">
+                    With sachin-jigar, Vishal-Sekhar,Amit
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent width">Ashiqui 2</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 12px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent width"
+                  >
+                    With Karan Aujla, Shubh,AP Dhillon and more
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0GF4shudTAFv8ak9eWdd4Y/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Patandar</p>
+                  <p class="transparent">With Mukesh, Tabassum, Asha Bhosl..</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/70B80Lwx2sxti0M1Ng9e8K/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Jo Tum Mere Ho</p>
+                  <p class="transparent">
+                    With Uttam singh, Abhijeet, Lata....
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Making memories</p>
+                  <p class="transparent">
+                    With Pritam, Mohit Chauhan, Armaan..
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Ye Jawaani Hai Deewani</p>
+                  <p class="transparent">
+                    With A.R. Rahman, Vishal-shekhar, Atif..
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Animal</p>
+                  <p class="transparent">
+                    With Diljit Dosanjh, Harrdy Sandhu, .....
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">G.O.A.T</p>
+                  <p class="transparent">
+                    With Anirudh Ravichander, G. V......
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Ultimate Love songs - Arijit Singh</p>
+                  <p class="transparent">
+                    With Karan Aujla ,Varinder Brar , Arjan...
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">WHO (Remixes)</p>
+                  <p class="transparent">
+                    With Asha Bhosle , Abhijeet , Jatin-Lalit...
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/5VVN3xZw1i2qihfITZlvCZ/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">GHOST</p>
+                  <p class="transparent">With Anirudh Ravichander , A.R.....</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2oSONSC9zQ4UonDKnLqksx/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Moosetape</p>
+                  <p class="transparent">
+                    With Sachin Jigar , Darshan Raval .....
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/6DARBhWbfcS9E4yJzcliqQ/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Still Rollin</p>
+                  <p class="transparent">With Subh , A.P. Dhillon , Divine</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3OLGltG8UPIea8sA4w0yg0/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Raanjhan (From "Do Patti")</p>
+                  <p class="transparent">
+                    With Shankar-Ehsaan-Loy , Atif Aslam ....
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Kabore Singh</p>
+                  <p class="transparent">
+                    With Shankar-Ehsaan-Loy , Atif Aslam
+                  </p>
+                </div>
+              </div>
+              <!-- <div class="card">
+                  <div class="imageContainer">
+                    <img
+                      class="transparent"
+                      id="greenButton"
+                      src="greenButton.svg"
+                      alt=""
+                    />
+                    <img
+                      id="singerImg"
+                      class="transparent"
+                      src="https://i.scdn.co/image/ab67616d00001e0254e544672baa16145d67612b"
+                      alt=""
+                    />
+                  </div>
+                  <div class="rightText transparent">
+                    <p class="transparent">Rockstar</p>
+                    <p class="transparent">A.R. Rahman , Irshad Kamil</p>
+                  </div>
+                </div> 
+                <div class="card">
+                  <div class="imageContainer">
+                    <img
+                      class="transparent"
+                      id="greenButton"
+                      src="greenButton.svg"
+                      alt=""
+                    />
+                    <img
+                      id="singerImg"
+                      class="transparent"
+                      src="https://i.scdn.co/image/ab67616d00001e0252fe6875028c892308ffc2f7"
+                      alt=""
+                    />
+                  </div>
+                  <div class="rightText transparent">
+                    <p class="transparent">Jab we met</p>
+                    <p class="transparent">Artists</p>
+                  </div>
+                </div> -->
+              <!-- <div class="card">
+                    <div class="imageContainer">
+                      <img
+                        class="transparent"
+                        id="greenButton"
+                        src="greenButton.svg"
+                        alt=""
+                      />
+                      <img
+                        id="singerImg"
+                        class="transparent"
+                        src="https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rightText transparent">
+                      <p class="transparent">Sonu Nigam</p>
+                      <p class="transparent">Artists</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="imageContainer">
+                      <img
+                        class="transparent"
+                        id="greenButton"
+                        src="greenButton.svg"
+                        alt=""
+                      />
+                      <img
+                        id="singerImg"
+                        class="transparent"
+                        src="https://i.scdn.co/image/ab676161000051747aa689cd7ca136098b26c20d"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rightText transparent">
+                      <p class="transparent">Karan Aujla</p>
+                      <p class="transparent">Artists</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="imageContainer">
+                      <img
+                        class="transparent"
+                        id="greenButton"
+                        src="greenButton.svg"
+                        alt=""
+                      />
+                      <img
+                        id="singerImg"
+                        class="transparent"
+                        src="https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3"
+                        alt=""
+                      />
+                    </div>
+                    <div class="rightText transparent">
+                      <p class="transparent">Shankar-Ehsaan-Loy</p>
+                      <p class="transparent">Artists</p>
+                    </div>
+                  </div> -->
+            </div>
+          </div>
+          <div class="R4 transparent">
+            <div class="rightHeading transparent">
+              <h3 class="transparent">Featured Charts</h3>
+              <button class="btn transparent" id="showAll4">Show All</button>
+            </div>
+            <div class="cardContainer transparent">
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">GLORY</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Your weekly update of the most played tracks right now -
+                    Global.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent width">Ashiqui 2</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 12px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent width"
+                  >
+                    Your weekly update of the most played tracks right now -
+                    USA.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Patandar</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Your daily update of the most played tracks right now -
+                    Global.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Jo Tum Mere Ho</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Your daily update of the most played tracks right now - USA.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Making memories</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Your daily update of the most viral tracks right now -
+                    Global.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Ye Jawaani Hai Deewani</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Your daily update of the most viral tracks right now - USA.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="R5 transparent">
+            <div class="rightHeading transparent">
+              <h3 class="transparent">Playlist from our editor</h3>
+              <button class="btn transparent" id="showAll5">Show All</button>
+            </div>
+            <div class="cardContainer transparent">
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67706f00000002fa8540423b3dd38f6a6e1c5b"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">GLORY</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Lounge and chill out music for your workday.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67706f000000026020f2f6476db518ef747da4"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent width">Ashiqui 2</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 12px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent width"
+                  >
+                    Keep calm and focus with ambient electric guitar.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67706f00000002f8fa0407737573ffd91c5a59"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Patandar</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Jazz piano ballads to help you focus during the workday.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67706f0000000251a837a657686b08f7359f4e"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Jo Tum Mere Ho</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Work and study to the sound of soft electronic music.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67706f00000002ae53b7d003148a0204c12d4f"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Making memories</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Enhance your focus with classical music.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="imageContainer">
+                  <img
+                    class="transparent"
+                    id="greenButton"
+                    src="images/greenButton.svg"
+                    alt=""
+                  />
+                  <img
+                    id="singerImg"
+                    class="transparent"
+                    src="https://i.scdn.co/image/ab67706f000000028b94921d98021a701f6677cf"
+                    alt=""
+                  />
+                </div>
+                <div class="rightText transparent">
+                  <p class="transparent">Ye Jawaani Hai Deewani</p>
+                  <p
+                    style="
+                      width: 160px;
+                      font-size: 13px;
+                      height: 40px;
+                      overflow: hidden;
+                    "
+                    class="transparent"
+                  >
+                    Soothing piano and strings to help you concentrate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="R6 transparent">
+            <div class="R6A transparent">
+              <p class="transparent">Company</p>
+              <a class="link transparent" href="#">About</a>
+              <a class="link transparent" href="#">Jobs</a>
+              <a class="link transparent" href="#">For the record</a>
+            </div>
+            <div class="R6A transparent">
+              <p class="transparent">Communities</p>
+              <a class="link transparent" href="#">For Artists</a>
+              <a class="link transparent" href="#">Developers</a>
+              <a class="link transparent" href="#">Advertising</a>
+              <a class="link transparent" href="#">Investors</a>
+              <a class="link transparent" href="#">Vendors</a>
+            </div>
+            <div class="R6A transparent">
+              <p class="transparent">Useful Links</p>
+              <a class="link transparent" href="#">Support</a>
+              <a class="link transparent" href="#">Free Mobile App</a>
+            </div>
+            <div class="R6A transparent">
+              <p class="transparent">Spotify Plans</p>
+              <a class="link transparent" href="#">Premium Individual</a>
+              <a class="link transparent" href="#">Premium Duo</a>
+              <a class="link transparent" href="#">Premium Family</a>
+              <a class="link transparent" href="#">Premium Student</a>
+              <a class="link transparent" href="#">Spotify Free</a>
+            </div>
+            <div class="R6A R6E transparent">
+              <img
+                id="insta"
+                class="img-width transparent"
+                src="images/Insta-logo.svg"
+                alt=""
+              />
+              <img
+                id="twitter"
+                class="img-width transparent"
+                src="images/twitter-logo.svg"
+                alt=""
+              />
+              <img
+                id="facebook"
+                class="img-width transparent"
+                src="images/face-logo.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="R7"></div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div id="playerBar">
+          <div id="displayName" class="transparent"></div>
+          <audio id="audio-player"></audio>
+
+          <input
+            title=""
+            placeholder=" "
+            type="range"
+            name="progresbar"
+            id="progressbar"
+            min="0"
+            max="100"
+            value="0"
+          />
+          <div class="playerBottom transparent">
+            <div id="duration" class="transparent">
+              <span id="current-time" class="transparent">0:00</span> /
+              <span class="transparent" id="total-duration">0:00</span>
+            </div>
+            <div class="playerImg transparent">
+              <img
+                id="previous"
+                class="img-width transparent"
+                src="images/NextN.svg"
+                alt="Previous"
+                title="Previous"
+              />
+              <img
+                id="playbutton"
+                class="img-width transparent"
+                src="images/Play.svg"
+                alt="Play/Pause"
+                title="Play/Pause"
+              />
+
+              <img
+                id="next"
+                class="img-width transparent"
+                src="images/Previous.svg"
+                alt="Next"
+                title="Next"
+              />
+            </div>
+            <div id="volumeDIV" class="transparent flex gap">
+              <img
+                id="volImg"
+                class="img-width transparent"
+                src="images/vols3.svg"
+                alt=""
+              />
+              <input
+                type="range"
+                id="volume"
+                name="volume"
+                min="0"
+                max="1"
+                step="0.1"
+                value="0.1"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="footerwrapper" class="transparent space-between">
+          <div class="footerText transparent">
+            <p id="preview" class="transparent">Preview of spotify</p>
+            <p id="footer txt2" class="transparent">
+              Sign up to get unlimited songs and podcasts with occasional ads.
+              No credit card needed.
+            </p>
+          </div>
+          <button id="footerBtn" class="btn transparent width height">
+            <a
+              class="transparent link"
+              href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fsection%2F0JQ5DAuChZYPe9iDhh2mJz"
+            ></a
+            >Sign up
+          </button>
+        </div>
+      </footer>
+      <div id="draggablepage">
+        <div class="transparent height" id="draggableContent">
+          <img
+            class="transparent img-width"
+            id="upDown"
+            src="images/up.svg"
+            alt=""
+          />
+          <p id="draggableContenttxt" class="transparent">Drag up to open</p>
+        </div>
+        <div id="maincontent" class="maincontent">
+          <div class="musicContainer">
+            <img id="musicImgg" src="images/img0.jpeg" alt="" />
+          </div>
+          <div class="mobilebottom transparent">
+            <div id="displayName1" class="displayName1 transparent"></div>
+            <audio id="audio-player1"></audio>
+            <input
+              type="range"
+              name="progresbar1"
+              id="progressbar1"
+              max="100"
+              min="0"
+              value="0"
+            />
+            <div class="duration1 transparent">
+              <span id="current-time1" class="transparent">0:00</span> /
+              <span class="transparent" id="total-duration1">0:00</span>
+            </div>
+            <div class="playerImg1 transparent">
+              <img
+                id="previous1"
+                class="img-width transparent"
+                src="images/NextN.svg"
+                alt="Play/Pause"
+                title="Play/Pause"
+              />
+              <img
+                id="play1"
+                class="img-width transparent"
+                src="images/Play.svg"
+                alt="Next"
+              />
+
+              <img
+                id="next1"
+                class="img-width transparent"
+                src="images/Previous.svg"
+                alt=""
+              />
+            </div>
+            <div class="volumeDiv transparent align-items">
+              <img
+                id="previous1"
+                class="img-width transparent"
+                src="images/mobilevolume2.svg"
+                alt="Previous"
+                title="Previous"
+              />
+              <input
+                type="range"
+                id="volume1"
+                name="volume1"
+                min="0"
+                max="1"
+                step="0.1"
+                value="0.1"
+              />
+              <img
+                id="previous1"
+                class="img-width transparent"
+                src="images/mobilevolume.svg"
+                alt="Previous"
+                title="Previous"
+              />
+            </div>
+            <div id="mobileSonglist" class="transparent">
+              <div id="mobileSongTitle" class="transparent">Up Next</div>
+              <ul id="songUl"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/script2.js"></script>
+  </body>
+</html>
